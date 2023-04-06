@@ -6,7 +6,7 @@ namespace Sekunden
 {
     class Zeit
     {
-         private int sek;
+        private int sek;
         private int sekunden { get => sek % 60; }
         private int minuten { get =>(sek / 60) % 60; }
         private int stunden { get => ((sek / 60) / 60) % 24; }
